@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Page 5</title>
+    <link href="CSS/page5.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+        .nav-item a {
+            position: relative;
+            display: inline-block;
+            font-size: 30px;
+            font-weight: 500;
+            color: royalblue;
+            overflow: hidden;
+            background: linear-gradient(to right, orangered 50%, orange 50%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% 100%;
+            background-position: 100%;
+            transition: background-position 275ms ease;
+        }
+
+        a:hover {
+            background-position: 0 100%;
+        }
+
+        .gridcontainer {
+
+            display: grid;
+            display: inline-block;
+            /*grid-template-columns: 66% 33% ;*/
+            grid-auto-rows: 100px;
+            /*text-align: center;*/
+            padding-left: 100px;
+            padding-right: 100px;
+            font-family: Verdana;
+            font-size: 20px;
+            color: black;
+            position: absolute;
+
+        }
+        .col-sm-8 {
+            /*background-color: #B1D5E8;*/
+
+        }
+        .col-sm-4 {
+            max-width: 100%;
+
+        }
+        .col-sm-7{
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="Images/Logo-removebg-preview.png" alt="..." height="65" >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="padding-left: 20px">Home</a>
+                </li>
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link" href="#">Link</a>-->
+                <!--                </li>-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 20px">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Page 1</a></li>
+                        <li><a class="dropdown-item" href="#">Page 2</a></li>
+                        <li><a class="dropdown-item" href="#">Page 3</a></li>
+                        <li><a class="dropdown-item" href="#">Page 4</a></li>
+                        <li><a class="dropdown-item" href="#">Page 5</a></li>
+                        <li><a class="dropdown-item" href="#">Page 6</a></li>
+                        <li><a class="dropdown-item" href="#">Page 7</a></li>
+                        <li><a class="dropdown-item" href="#">Page 8</a></li>
+                        <li><a class="dropdown-item" href="#">Page 9</a></li>
+                        <!--                        <li><a class="dropdown-item" href="#">Another action</a></li>-->
+                        <!--                        <li>-->
+                        <!--                            <hr class="dropdown-divider">-->
+                        <!--                        </li>-->
+                        <!--                        <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+
+
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-left: 20px">
+                        <img src="Images/profileicon.jpg" width="40" height="40" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="profile.html">Edit Profile</a></li>
+                        <li><a class="dropdown-item" href="logout.html">Log out</a></li>
+
+                        <!--                        <li><a class="dropdown-item" href="#">Another action</a></li>-->
+                        <!--                        <li>-->
+                        <!--                            <hr class="dropdown-divider">-->
+                        <!--                        </li>-->
+                        <!--                        <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+<div class="wrapper">
+    <div class="gridcontainer">
+        <h1 style="font-weight: bold">Domain Name System (DNS)</h1><br>
+        <div class="row">
+            <h3>What is DNS and how does it work?</h3><br><br><br>
+            <div class="col-sm-7"style="margin-top: 0px;">
+                <p>
+                    Paul Mockapetris invented the Domain Name System also known as DNS in 1983.
+                </p><br>
+                <p>
+                    DNS is like a phonebook of the internet. Just like people use phonebooks to look up number to reach someone, internet uses phonebook to reach its destination.
+                </p><br>
+                <p>
+                    Everything on interent has an IP address and in order to reach a destination, you must know all the IP address there are. Its hard to remember so many numbers hence DNS comes to rescue. DNS translates domain names to IP addresses.
+                </p><br>
+                <p>
+                    DNS resolution involves converting a hostname such as www.example.com to a friendly IP address such as 192.168.1.1. Once the resolution is completed, computer knows where to find that IP address and takes you to that destination.
+                </p>
+
+            </div>
+            <div class="col-sm-5">
+                <img src="Images/DNS.png" style="width: 700px; height: 500px;margin-bottom: 50px;">
+            </div>
+            <div class="col-sm-7">
+
+                <h3> Some of the Free and Public DNS Servers.</h3><br>
+
+                <p>• Google       Primary(8.8.8.8)- Secondary(8.8.4.4)</p>
+                <p>• Quad9        Primary(9.9.9.9)- Secondary(149.112.112.112)</p>
+                <p>• OpenDNS Home Primary(208.67.222.222)- Secondary(208.67.220.220)</p>
+                <p>• Cloudflare   Primary(1.1.1.1)- Secondary(1.0.0.1)</p><br>
+
+            </div>
+            <div class="col-sm-5">
+                <img src="Images/public-dns-servers.jpg"style="padding-left: 100px"> <br><br>
+            </div>
+            <div class="col-sm-8">
+                <h3> 1981-1986</h3><br>
+                <p>• First public WAN initiated. Kilnam Chon connects Asia to the internet.</p>
+                <p>• After almost 10 years of refinement and bureaucratic haggling TCP/IP was adopted as the universal standard marking a milestone in the development of the internet. </p>
+                <p>• Paul Mockapetris invents Domain Name Systems.Domain Name System introduced to allow domain names to automatically be assigned an IP number.</p>
+                <p>• The first email arrives in Germany from the US.</p>
+                <p>• 100 years to the day of the last spike being driven on the Canadina Pacific Railway, the last Canadian university was connected to NetNorth in a one year effort to have coast-to-coast connectivity.</p>
+                <p>• The number of Hosts breaks 1,000. </p>
+                <p>• MCI creates T1 lines to allow for faster transportation of information over the internet.</p>
+            </div>
+<!--            <div class="col-sm-4" style="float: right">-->
+<!--                &lt;!&ndash;                <img src="Images/Logo-removebg-preview.png" style="width: 100%">&ndash;&gt;-->
+<!--            </div>-->
+<!--            <div class="col-sm-8">-->
+
+
+<!--            </div>-->
+<!--            <div class="col-sm-4" style="float: right">-->
+<!--                &lt;!&ndash;                <img src="Images/Logo-removebg-preview.png" style="width: 100%">&ndash;&gt;-->
+<!--            </div>-->
+<!--            <div class="col-sm-8">-->
+<!--                <p>-->
+<!--                    - 1984: The first email arrives in Germany from the US.-->
+<!--                </p>-->
+
+<!--            </div>-->
+<!--            <div class="col-sm-4" style="float: right">-->
+<!--                &lt;!&ndash;                <img src="Images/Logo-removebg-preview.png" style="width: 100%">&ndash;&gt;-->
+<!--            </div>-->
+        </div>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+-->
+</body>
+</html>

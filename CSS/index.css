@@ -1,0 +1,50 @@
+body {
+    background-image: url("../Images/background.jpeg");
+    background-size: cover;
+}
+
+.nav-item li {
+    text-align: center;
+}
+
+.col-sm-12 img{
+    width: 100%;
+    height: 80%;
+}
+
+.col-sm-12 {
+    max-width: 100%;
+    /*position: relative;*/
+    /*background-image: url("../Images/background.jpeg");*/
+}
+
+.col-sm-4 {
+    text-align: center;
+}
+
+
+.nav-item li {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.hero-image {
+    position: relative;
+    opacity: 100%;
+    max-width: 100%;
+    width: 100%;
+
+}
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-80%, -50%);
+    color: white;
+    font-family: "Al Nile";
+}
+
+

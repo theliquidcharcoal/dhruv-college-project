@@ -1,0 +1,217 @@
+
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Page 4</title>
+    <link href="CSS/page4.css" rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Bootstrap CSS -->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet">
+
+    <style>
+        .nav-item a {
+            position: relative;
+            display: inline-block;
+            font-size: 30px;
+            font-weight: 500;
+            color: royalblue;
+            overflow: hidden;
+            background: linear-gradient(to right, orangered 50%, orange 50%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% 100%;
+            background-position: 100%;
+            transition: background-position 275ms ease;
+        }
+
+        a:hover {
+            background-position: 0 100%;
+        }
+
+        .gridcontainer {
+
+            display: grid;
+            display: inline-block;
+            /*grid-template-columns: 66% 33% ;*/
+            grid-auto-rows: 100px;
+            /*text-align: center;*/
+            padding-left: 100px;
+            padding-right: 100px;
+            font-family: Verdana;
+            font-size: 20px;
+            color: black;
+            position: absolute;
+
+        }
+        .col-sm-8 {
+            /*background-color: #B1D5E8;*/
+
+        }
+        .col-sm-4 {
+            max-width: 100%;
+
+        }
+        .col-sm-7{
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img alt="..." height="65" src="Images/Logo-removebg-preview.png">
+        </a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active" href="#" style="padding-left: 20px">Home</a>
+                </li>
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link" href="#">Link</a>-->
+                <!--                </li>-->
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                       id="navbarDropdown" role="button" style="padding-left: 20px">
+                        Pages
+                    </a>
+                    <ul aria-labelledby="navbarDropdown" class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Page 1</a></li>
+                        <li><a class="dropdown-item" href="#">Page 2</a></li>
+                        <li><a class="dropdown-item" href="#">Page 3</a></li>
+                        <li><a class="dropdown-item" href="#">Page 4</a></li>
+                        <li><a class="dropdown-item" href="#">Page 5</a></li>
+                        <li><a class="dropdown-item" href="#">Page 6</a></li>
+                        <li><a class="dropdown-item" href="#">Page 7</a></li>
+                        <li><a class="dropdown-item" href="#">Page 8</a></li>
+                        <li><a class="dropdown-item" href="#">Page 9</a></li>
+                        <!--                        <li><a class="dropdown-item" href="#">Another action</a></li>-->
+                        <!--                        <li>-->
+                        <!--                            <hr class="dropdown-divider">-->
+                        <!--                        </li>-->
+                        <!--                        <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                       id="navbarDropdown" role="button" style="padding-left: 20px">
+                        <img class="rounded-circle" height="40" src="Images/profileicon.jpg" width="40">
+                    </a>
+                    <ul aria-labelledby="navbarDropdown" class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="profile.html">Edit Profile</a></li>
+                        <li><a class="dropdown-item" href="logout.html">Log out</a></li>
+
+                        <!--                        <li><a class="dropdown-item" href="#">Another action</a></li>-->
+                        <!--                        <li>-->
+                        <!--                            <hr class="dropdown-divider">-->
+                        <!--                        </li>-->
+                        <!--                        <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+
+<div class="wrapper">
+    <div class="gridcontainer">
+        <h1 style="font-weight: bold">The Beginning Of TCP/IP</h1><br>
+        <div class="row">
+            <h3>What is TCP/IP and How Does it Work?</h3><br><br><br>
+            <div class="col-sm-7"style="margin-top: 0px;">
+                <p>
+                    In 1970s, the TCP/IP was created by 2 DARPA scientists, Vint Cerf and Bob Kahn.
+                </p><br>
+                <p>
+                Similar to how people communicate with each other, computers communicate with each other through TCP/IP. TCP/IP which stands for Transmission Control Protocol/Internet Protocol is a set of Standarized rules which allows computers to communicate on a network such as internet.
+                </p><br>
+                <p>
+                Lets say you want to send a message/email to a friend on another computer and if there were any issues on the way, the message would have to be resent again and again until it reaches the destination successfully.
+                This is where TCP/IP comes in handy.
+                </p><br>
+                <p>
+                    TCP/IP breaks each message into packets and are sent to the destination. The packets would travel on different routes and
+                    get reassembled at the destination for user to view the message.
+                </p>
+
+            </div>
+            <div class="col-sm-5">
+                <img src="Images/What_is_TCP-IP.png" style="width: 700px; height: 500px;margin-bottom: 50px;">
+            </div>
+            <div class="col-sm-7">
+
+                   <h3> There are four layers in the TCP/IP model.</h3><br>
+
+                <p>• Application Layer</p>
+                <p>• Transport Layer</p>
+                <p>• Internet Layer</p>
+                <p>• Network Interface Layer</p><br>
+                <p>
+                    Each layer has a different function. Data passes through each layer when leaving the source and reassemble in reverse to present it at the destination.
+                </p>
+
+
+            </div>
+            <div class="col-sm-5">
+                <img src="Images/TCPIPModel.png"style="padding-left: 200px"> <br><br>
+            </div>
+            <div class="col-sm-8">
+                <h3> 1975-1980s</h3><br>
+                <p>• Ethernet is developed by Dr. Robert M. Metcalfe.</p>
+                <p>• SATNET, a satellite program to connect United states with Europe. </p>
+                <p>• Queen Elizabeth II sends an email from Royal Signals and Radar Establishment in Malvern.</p>
+                <p>• AT&T Bell Labs develop UUCP(Unix to Unix Copy) and UNIX</p>
+                <p>• USENET, an internet based network of discussion group was created by Tom Truscott and Jim Ellis.</p>
+                <p>• Apple II computer was announced by Steve Wozniak and Steve Jobs. </p>
+                <p>• Larry Landweber of the University of Wisconsin creates THEORYNET providing email between over 100 researchers and linking elements of the University of Wisconsin in different cities via a commercial packet service like Telenet.</p>
+            </div>
+<!--            <div class="col-sm-4" style="float: right">-->
+<!--&lt;!&ndash;                <img src="Images/Logo-removebg-preview.png" style="width: 100%">&ndash;&gt;-->
+<!--            </div>-->
+<!--            <div class="col-sm-8">-->
+
+
+<!--            </div>-->
+<!--            <div class="col-sm-4" style="float: right">-->
+<!--&lt;!&ndash;                <img src="Images/Logo-removebg-preview.png" style="width: 100%">&ndash;&gt;-->
+<!--            </div>-->
+<!--            <div class="col-sm-8">-->
+<!--                <p>-->
+<!--                    - 1984: The first email arrives in Germany from the US.-->
+<!--                </p>-->
+
+<!--            </div>-->
+<!--            <div class="col-sm-4" style="float: right">-->
+<!--&lt;!&ndash;                <img src="Images/Logo-removebg-preview.png" style="width: 100%">&ndash;&gt;-->
+<!--            </div>-->
+        </div>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script crossorigin="anonymous" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+-->
+</body>
+</html>
+

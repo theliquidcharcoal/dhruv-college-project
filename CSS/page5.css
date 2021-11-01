@@ -1,0 +1,15 @@
+body{
+    /*background-image: url("../Images/WallpaperDog-10703063.jpg");*/
+    background-size: cover;
+    /*position: relative;*/
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    font-family: Verdana;
+    margin: 0;
+    position: relative;
+
+
+}
+.navbar-nav a {
+    font-size: 20px;
+}
