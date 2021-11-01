@@ -1,6 +1,5 @@
 body {
-    background-image: url("../Images/background.jpeg");
-    background-size: cover;
+    font-size: 16px;
 }
 
 .nav-item li {
